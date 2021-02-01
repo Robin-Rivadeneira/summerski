@@ -1,0 +1,25 @@
+<LINK REL=StyleSheet HREF="/css/registro.css" TYPE="text/css" MEDIA=screen>
+<div id="imegen">
+  <img src="/img/avatar.png" id="avatar">
+</div>
+<form action="/signup" method="POST" id="registros">
+    <div id="usuario">
+      <label id="Usuario">Usuario: </label>
+      <input type="text" id="Nombre" name="username">
+    </div>
+    <div id="Contraseñas">
+      <label id="contraseña">Contraseña: </label>
+      <input type="password" id="Contraseña" name="password">
+    </div>
+    <div id="Edades">
+      <label id="edad">Edad: </label>
+      <input type="number" id="Edad" name="edad" min="0">
+    </div>
+    <div id="Estados">
+      <label id="estado">Estado: </label>
+      <input type="text" id="Estado" name="estado" value=1>
+    </div>
+    <div>
+      <button type="submit" id="boton"><img src="/img/guardar.png" id="guardar"></button>
+    </div>
+</form>

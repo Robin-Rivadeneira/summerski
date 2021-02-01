@@ -1,0 +1,5 @@
+<form action="/descripcion/list"></form>
+{{#each lista}}
+<p>{{Descripcion}}</p>
+<a href="/descripcion/edit/{{id}}" id="boton"><img src="/img/editar.png" id="flecha"></a>
+{{/each}}

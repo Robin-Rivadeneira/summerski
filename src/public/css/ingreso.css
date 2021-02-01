@@ -1,0 +1,50 @@
+#imegen{
+    position: absolute;
+    left: 570px;
+    top: 150px;
+}
+#avatar{
+    display: absolute;
+    flex-wrap: wrap;
+    max-width: 250px;
+}
+#contenedor{
+    position: absolute;
+    top: 370px;
+    left: 500px;
+}
+#datos{
+    position: absolute;
+    top: -60px;
+}
+#Usuario{
+    font-size: 35px;
+    font-style: italic;
+    font-family: fantasy;
+}
+#Nombre{
+    position: absolute;
+    left:190px;
+    top: 18px;
+    border-radius: 10px;
+}
+#contraseña{
+    font-size: 35px;
+    font-style: italic;
+    font-family: fantasy;
+}
+#Contraseña{
+    position:absolute;
+    left: 190px;
+    top: 15px;
+    border-radius: 10px;
+}
+#flecha{
+    max-width: 50px;
+}
+#boton{
+    background-color: rgb(255, 240, 245);
+    border-radius: 20px;
+    border-color: black;
+    width: 210%;
+}
