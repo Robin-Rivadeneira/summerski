@@ -1,0 +1,31 @@
+#contenedor{
+    position: absolute;
+    top: 120px;
+    height: auto;
+    left: 550px;
+    width: 50%;
+}
+#Descripcion{
+    position: absolute;
+    font-size: 28px;
+    font-family: fantasy;
+}
+#descripcion{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 50px;
+}
+#guardar{
+    position: absolute;
+    width: 50px;
+    height: auto;
+}
+#boton{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0);
+    border-color: rgba(240, 248, 255, 0);
+}

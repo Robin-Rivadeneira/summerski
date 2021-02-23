@@ -15,9 +15,10 @@ USE summerski;
 
 CREATE TABLE Personajes(
     id INT(11) NOT NULL PRIMARY KEY,
-    Nombre VARCHAR(50),
-    edad VARCHAR(30),
-    estatura VARCHAR(30),
+    Nombre VARCHAR(50) NOT NULL,
+    edad VARCHAR(30) NOT NULL,
+    estatura VARCHAR(30) NOT NULL,
+    Descripcion VARCHAR(250) NOT NULL,
     created_at timestamp NOT NULL DEFAULT current_timestamp
 );
 
@@ -34,7 +35,7 @@ ALTER TABLE Trampas MODIFY id INT(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT= 1
 
 CREATE TABLE juego(
   id INT(11) NOT NULL PRIMARY KEY,
-  Descripcion VARCHAR(150) NOT NULL,
+  Descripcion VARCHAR(250) NOT NULL,
   nivel VARCHAR(20) NOT NULL,
   vidas VARCHAR(10) NOT NULL,
   puntaje INT(11) NOT NULL,
