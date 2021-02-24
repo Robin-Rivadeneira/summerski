@@ -1,0 +1,14 @@
+#contenedor{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 140px;
+    left: 550px;
+}
+#imagen{
+    width: 25%;
+    height: auto;
+}
+#flecha{
+    max-width: 50px;
+}

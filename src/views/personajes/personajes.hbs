@@ -1,0 +1,12 @@
+<LINK REL=StyleSheet HREF="/css/listapersonajes.css" TYPE="text/css" MEDIA=screen>
+<form action="/personajes/list"></form>
+<div id="contenedor">
+{{#each lista}}
+<img src="/img/sprites/{{imagen}}" id="imagen">
+<p>{{Nombre}}</p>
+<p>{{edad}}</p>
+<p>{{estatura}}</p>
+<p>{{Descripcion}}</p>
+<a href="/personajes/edit/{{id}}" id="boton"><img src="/img/editar.png" id="flecha"></a>
+{{/each}}
+</div>

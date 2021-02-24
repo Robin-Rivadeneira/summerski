@@ -15,6 +15,7 @@ USE summerski;
 
 CREATE TABLE Personajes(
     id INT(11) NOT NULL PRIMARY KEY,
+    imagen VARCHAR(250) NOT NULL,
     Nombre VARCHAR(50) NOT NULL,
     edad VARCHAR(30) NOT NULL,
     estatura VARCHAR(30) NOT NULL,

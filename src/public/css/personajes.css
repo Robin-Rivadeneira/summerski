@@ -1,0 +1,76 @@
+#guardar{
+    position: absolute;
+    width: 50px;
+    height: auto;
+}
+#contenedor{
+    position: absolute;
+    top: 150px;
+    height: auto;
+    left: 550px;
+}
+#Imagenes{
+    position: absolute;
+    height: auto;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 28;
+}
+#Nombres{
+    position: absolute;
+    height: auto;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 28;
+    top: 70px;
+}
+#Edades{
+    position: absolute;
+    height: auto;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 28;
+    top: 140px;
+}
+#Estaturas{
+    position: absolute;
+    height: auto;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 28;
+    top: 210px;
+}
+#Descripciones{
+    position: absolute;
+    height: auto;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 28;
+    top: 280px;
+}
+#descripcion{
+    width: 190px;
+    border-radius: 20px;
+    height: 120px;
+}
+#Boton{
+    position: absolute;
+    height: auto;
+    top: 320px;
+    left: 160px;
+}
+#boton{
+    position: absolute;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0);
+    border-color: rgba(240, 248, 255, 0);
+}
+#nombre{
+    border-radius: 20px;
+}
+#edad{
+    border-radius: 20px;
+}
+#estatura{
+    border-radius: 20px;
+}

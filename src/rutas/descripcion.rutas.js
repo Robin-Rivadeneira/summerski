@@ -1,14 +1,14 @@
 const express = require('express');
 const router = express.Router();
+const { isLoggedIn } = require('../lib/auth')
+const { renderVista, agregar, lista, renderEditar, editar, lista1 } = require('../controladores/descripcion');
 
-const {renderVista, agregar, lista, renderEditar, editar, lista1 } = require('../controladores/descripcion');
-
-router.get('/list', lista);
+router.get('/list', isLoggedIn, lista);
 router.get('/list1', lista1);
-router.get('/add', renderVista);
-router.post('/add', agregar);
-router.get('/edit/:id', renderEditar);
-router.post('/edit/:id', editar);
+router.get('/add', isLoggedIn, renderVista);
+router.post('/add', isLoggedIn, agregar);
+router.get('/edit/:id', isLoggedIn, renderEditar);
+router.post('/edit/:id', isLoggedIn, editar);
 
 
 

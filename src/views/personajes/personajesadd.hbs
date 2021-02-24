@@ -1,13 +1,28 @@
+<LINK REL=StyleSheet HREF="/css/personajes.css" TYPE="text/css" MEDIA=screen>
 <form action="/personajes/add" method="POST">
 <div id="contenedor">
+    <div id="Imagenes">
+    <label id="imagen">Imagen </label>
+    <input type="file" id="imagen" name="imagen">
+    </div>
+    <div id="Nombres">
     <label id="Nombre">Nombre </label>
     <input type="text" id="nombre" name="Nombre">
-    <label id="Edad">Nombre </label>
-    <input type="text" id="nombre" name="Nombre">
-    <label id="Estatura">Nombre </label>
-    <input type="text" id="nombre" name="Nombre">
-    <label id="Estatura">Nombre </label>
+    </div>
+    <div id="Edades">
+    <label id="Edad">Edad </label>
+    <input type="text" id="edad" name="edad">
+    </div>
+    <div id="Estaturas">
+    <label id="Estatura">Estatura </label>
+    <input type="text" id="estatura" name="estatura">
+    </div>
+    <div id="Descripciones">
+    <label id="Descripcion">Descripcion</label>
     <textarea name="Descripcion" id="descripcion" cols="30" rows="10" placeholder="Agregar Texto" spellcheck="true" maxlength="150"></textarea>
+    </div>
+    <div id="Boton">
     <button type="submit" id="boton"><img src="/img/guardar.png" id="guardar"></button>
+    </div>
 </div>
 </form>
