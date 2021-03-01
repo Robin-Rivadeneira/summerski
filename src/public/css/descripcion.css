@@ -1,21 +1,42 @@
 #contenedor{
     position: absolute;
-    top: 120px;
+    top: 90px;
     height: auto;
-    left: 550px;
+    left: 570px;
     width: 50%;
+}
+#titulos{
+    position: absolute;
+    top: 90px;
+    width:20%;
+}
+#Titulo{
+    position: absolute;
+    font-size: 20px;
+    font-family: fantasy;
+    font-style: italic;
+}
+#titulo{
+    position: absolute;
+    border-radius: 20px;
+    top: 40px;
+}
+#descripciones{
+    position:absolute;
+    width: 30%;
+    top:180px;
 }
 #Descripcion{
     position: absolute;
-    font-size: 28px;
+    font-size: 22px;
     font-family: fantasy;
+    font-style: italic;
 }
 #descripcion{
-    border-radius: 20px;
     position: absolute;
-    width: 250px;
-    height: auto;
-    top: 50px;
+    border-radius: 20px;
+    top: 40px;
+    height: 100px;
 }
 #guardar{
     position: absolute;

@@ -1,8 +1,10 @@
 <LINK REL=StyleSheet HREF="/css/descripcion.css" TYPE="text/css" MEDIA=screen>
 <form action="/descripcion/edit/{{editar.id}}" method="POST">
 <div id="contenedor">
+    <div id="descripciones">
     <label id="Descripcion">Descripción del juego</label>
-    <textarea name="Descripcion" id="descripcion" cols="30" rows="10">{{editar.Descripcion}}</textarea>
+    <textarea name="Descripcion" id="descripcion" cols="30" rows="10" spellcheck="true" maxlength="250">{{editar.Descripcion}}</textarea>
+    </div>
     <button type="submit" id="boton"><img src="/img/guardar.png" id="guardar"></button>
 </div>
 </form>

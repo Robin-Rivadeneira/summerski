@@ -1,12 +1,14 @@
 <LINK REL=StyleSheet HREF="/css/listadescripcion.css" TYPE="text/css" MEDIA=screen>
 <form action="/descripcion/list1"></form>
-<div id="contenedor">
+<img src="/img/sprites/portada.png" id="imagen">
+<div id="listas">
 {{#each lista}}
-<p>{{Descripcion}}</p>
+<h1 id="titulo">{{Titulo}}</h1>
+<p id="descripcion">{{Descripcion}}</p>
 {{/each}}
 </div>
 <div id="juego">
-<a href="" id="comenzar"><p>Comenzar Juego</p></a>
+<a href="/juego/seleccion" id="comenzar"><p>Comenzar Juego</p></a>
 </div>
 <div id="Personajes">
 <a href="/personajes/list1" id="comenzar"><p>Personajes</p></a>

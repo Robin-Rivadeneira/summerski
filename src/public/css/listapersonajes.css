@@ -4,6 +4,9 @@
     height: auto;
     top: 140px;
     left: 550px;
+    font-size: 20px;
+    font-family: fantasy;
+    font-style: italic;
 }
 #imagen{
     width: 25%;

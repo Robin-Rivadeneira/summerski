@@ -1,0 +1,57 @@
+#continuar{
+    position: absolute;
+    width: 100px;
+    height: auto;
+}
+#juegadora1{
+    position: absolute;
+    width: 120px;
+    height: auto;
+}
+#juegadora2{
+    position: absolute;
+    width: 120px;
+    height: auto;
+}
+#juegadora3{
+    position: absolute;
+    width: 120px;
+    height: auto;
+}
+#juegadora4{
+    position: absolute;
+    width: 120px;
+    height: auto;
+}
+#contenedor{
+    position: absolute;
+    top: 250px;
+    left: 550px;
+    width: auto;
+    height: auto;
+}
+#seleccion{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: auto;
+}
+#fondo{
+    width: auto;
+    height: auto;
+}
+#Boton{
+    position: absolute;
+    top: 230px;
+    left: 150px;
+}
+#boton{
+    border-radius: 20px;
+    border-color: rgba(240, 248, 255, 0);
+    background-color: rgba(240, 248, 255, 0);
+}
+#nombre{
+    position: absolute;
+    top: -50px;
+    left: 10px;
+}

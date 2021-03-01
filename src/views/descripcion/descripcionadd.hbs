@@ -1,8 +1,14 @@
 <LINK REL=StyleSheet HREF="/css/descripcion.css" TYPE="text/css" MEDIA=screen>
 <form action="/descripcion/add" method="POST">
 <div id="contenedor">
-    <label id="Descripcion">Descripción Del jeugo</label>
-    <textarea name="Descripcion" id="descripcion" cols="30" rows="10" placeholder="Agregar Texto" spellcheck="true" maxlength="150"></textarea>
+    <div id="titulos">
+    <label id="Titulo">Titulo del Juego:</label>
+    <input type="text" name="Titulo" id="titulo">
+    </div>
+    <div id="descripciones">
+    <label id="Descripcion">Descripción Del Jeugo:</label>
+    <textarea name="Descripcion" id="descripcion" cols="30" rows="10" placeholder="Agregar Texto" spellcheck="true" maxlength="250"></textarea>
+    </div>
     <button type="submit" id="boton"><img src="/img/guardar.png" id="guardar"></button>
 </div>
 </form>

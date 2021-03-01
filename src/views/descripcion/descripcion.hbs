@@ -1,8 +1,11 @@
 <LINK REL=StyleSheet HREF="/css/listadescripcion.css" TYPE="text/css" MEDIA=screen>
 <form action="/descripcion/list"></form>
-<div id="contenedor">
+<div id="listas">
 {{#each lista}}
-<p>{{Descripcion}}</p>
+<p id="titulo">{{Titulo}}</p>
+<p id="descripcion">{{Descripcion}}</p>
+<div id="boton">
 <a href="/descripcion/edit/{{id}}" id="boton"><img src="/img/editar.png" id="flecha"></a>
+</div>
 {{/each}}
 </div>
