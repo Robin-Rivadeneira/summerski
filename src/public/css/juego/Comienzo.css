@@ -1,0 +1,29 @@
+#movimiento{
+    text-align: justify;
+    font-size: 25px;
+    font-family: fantasy;
+    font-style: italic;
+}
+
+#contenedor{
+    position: absolute;
+    top: 140px;
+    width: 40%;
+    height: auto;
+    left: 430px;
+}
+#continuar{
+    position: absolute;
+    width: 100px;
+    height: auto;
+}
+#Boton{
+    position: absolute;
+    top: 530px;
+    left: 1050px;
+}
+#boton{
+    border-radius: 20px;
+    border-color: rgba(240, 248, 255, 0);
+    background-color: rgba(240, 248, 255, 0);
+}

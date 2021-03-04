@@ -67,6 +67,7 @@ app.use('/descripcion',require('./rutas/descripcion.rutas'))
 app.use('/personajes',require('./rutas/personajes.rutas'))
 app.use('/juego',require('./rutas/juego/seleccion'))
 app.use('/juego',require('./rutas/juego/comienzo.rutas'))
+app.use('/juego',require('./rutas/juego/esenas.rutas'))
 app.use('/perfil',require('./rutas/perfil.rutas'))
 
 module.exports = app; 

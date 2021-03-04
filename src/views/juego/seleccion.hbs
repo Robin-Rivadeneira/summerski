@@ -2,24 +2,24 @@
 <div id="fondo">
 <img src="/img/sprites/seleccion.png" id="seleccion">
 </div>
-<form action="/juego/seleccion" method="post"></form>
+<form action="/juego/seleccion" method="POST">
 <div id="contenedor">
     <div id="Nombre">
-        <select name="Nombre" id="nombre" onclick="s.Seleccion()">
+        <select name="personaje" id="nombre" onclick="s.Seleccion()">
             {{#each lista}}
             <option value="{{this.Nombre}}">{{this.Nombre}}</option>
             {{/each}}
         </select>
     </div>
     <div id="imagen">
-        <img src="/img/sprites/Cintia.png" id="juegadora1">
-        <img src="/img/sprites/Mariel.png" id="juegadora2">
-        <img src="/img/sprites/sara.png" id="juegadora3">
+        <img src="/img/sprites/Hinatary.png" id="juegadora1">
+        <img src="/img/sprites/Marishel.png" id="juegadora2">
+        <img src="/img/sprites/Katzura.png" id="juegadora3">
         <img src="/img/sprites/shiro.png" id="juegadora4">
     </div>
     <div id="Boton">
-        <a href="/juego/comienzo" id="boton"><img src="/img/sprites/Boton.png" id="continuar"></a>
+        <button type="submit" id="boton"><a href="/juego/comienzo"><img src="/img/sprites/Boton.png" id="continuar"></a></button>
     </div>
 </div>
-
+</form>
 <script src="/js/seleccion.js"></script>

@@ -2,10 +2,9 @@
 <form action="/descripcion/list"></form>
 <div id="listas">
 {{#each lista}}
-<p id="titulo">{{Titulo}}</p>
-<p id="descripcion">{{Descripcion}}</p>
-<div id="boton">
+<center>
+<h1>{{Titulo}}</h1></center>
+<p >{{Descripcion}}</p>
 <a href="/descripcion/edit/{{id}}" id="boton"><img src="/img/editar.png" id="flecha"></a>
-</div>
 {{/each}}
 </div>

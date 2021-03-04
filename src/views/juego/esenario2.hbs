@@ -1,0 +1,47 @@
+<LINK REL=StyleSheet HREF="/css/juego/esenario2.css" TYPE="text/css" MEDIA=screen>
+<div id="img">
+<img src="/img/sprites/esenario2.png" id="esenario">
+</div>
+<div id="Boton">
+<button id="boton"><img src="/img/sprites/teacher.png" id="imagen"></button>
+</div>
+<form action="/juego/esenario2"></form>
+<div id="personajes">
+    {{#each lista}}
+    <img src="/img/sprites/{{personaje}}.png" id="personaje">
+    <input type="text" id="nombre" value="{{personaje}}" disabled></input>
+    {{/each}}
+    <img src="/img/sprites/Hinatary.png" id="personaje1">
+    <img src="/img/sprites/Katzura.png" id="personaje2">
+    <img src="/img/sprites/Marishel.png" id="personaje3">
+    <img src="/img/sprites/shiro.png" id="personaje4">
+</div>
+<div id="inicio">
+<textarea id="inicios" cols="30" rows="10"  spellcheck="true" disabled>
+    ¡¡Para continuar da click en el icono!!
+</textarea>
+<button type="button" id="botos" onclick="personaje.intros()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+</div>
+<div id="introduccion">
+<textarea id="intro" cols="30" rows="10" spellcheck="true" disabled>
+    En el Instituto Quetzales Silvestres el martes por la mañana….
+</textarea>
+<button type="button" id="botos2" onclick="personaje.intros1()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+</div>
+<div id="introduccion1">
+{{#each lista}}
+<textarea id="intro1" cols="30" rows="10" spellcheck="true" disabled>
+  {{personaje}}  y sus amigas están entregando el último proyecto con la Srta Frida Lazra.
+</textarea>
+{{/each}}
+<button type="button" id="botos1" onclick="personaje.conersaciones()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+</div>
+<div id="conversacion">
+<textarea id="saludo" cols="30" rows="10" spellcheck="true" disabled>
+Srta Frida Lara muy buenos dias, aquí tiene mi proyecto, me he esforzado mucho.
+</textarea>
+</div>
+<div id="preguntas">
+<input type="button"  id="mensajes">
+</div>
+<script src="/js/esenario2.js"></script>

@@ -5,5 +5,4 @@ comienzo.Mostrar=(req,res)=>{
 res.render('juego/juego');
 }
 
-
 module.exports=comienzo

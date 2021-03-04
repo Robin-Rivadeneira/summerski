@@ -38,6 +38,7 @@ CREATE TABLE juego(
   id INT(11) NOT NULL PRIMARY KEY,
   Nivel VARCHAR(20) NOT NULL,
   Vidas VARCHAR(10) NOT NULL,
+  personaje VARCHAR(50) NOT NULL,
   Puntaje INT(11) NOT NULL,
   Created_at timestamp NOT NULL DEFAULT current_timestamp
 );

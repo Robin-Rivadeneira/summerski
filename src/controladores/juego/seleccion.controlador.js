@@ -10,11 +10,11 @@ selecion.lista = async (req, res) => {
     res.render('juego/seleccion', { lista });
 }
 selecion.mandar=async(req,res)=>{
-    const{Nombre}=req.body
+    const{personaje}=req.body
     const nuevopersonaje={
-        Nombre
+        personaje
     }
-    await pool.query("INSERT INTO personajes set ?",[nuevopersonaje])
+    await pool.query("INSERT INTO juego set ?",[nuevopersonaje])
     req.flash('success', 'Se mando con exito')
      res.redirect('/juego/comienzo');
 }

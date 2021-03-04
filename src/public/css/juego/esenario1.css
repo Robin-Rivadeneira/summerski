@@ -1,0 +1,21 @@
+#mover{
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    height: auto;
+}
+#esenario{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 63px;
+}
+#Boton{
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+#ventana{
+    width: 250px;
+    height: auto;
+}
