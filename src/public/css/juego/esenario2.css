@@ -212,6 +212,20 @@
     background-color: rgba(255, 235, 205, 0);
     border-color: rgba(255, 235, 205, 0);
 }
+#botos14{
+    position: absolute;
+    top: 640px;
+    left: 1050px;
+    background-color: rgba(255, 235, 205, 0);
+    border-color: rgba(255, 235, 205, 0);
+}
+#botos15{
+    position: absolute;
+    top: 640px;
+    left: 1050px;
+    background-color: rgba(255, 235, 205, 0);
+    border-color: rgba(255, 235, 205, 0);
+}
 #Teacher{
     position: absolute;
     top: 350px;
@@ -338,6 +352,18 @@
     background-color: rgba(255, 255, 255, 0.87);
 }
 #continuacion4{
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    height:100px;
+    color: black;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+#continuacion5{
     position: absolute;
     top: 630px;
     width: 100%;
