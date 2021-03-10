@@ -70,4 +70,8 @@ app.use('/juego',require('./rutas/juego/comienzo.rutas'))
 app.use('/juego',require('./rutas/juego/esenas.rutas'))
 app.use('/perfil',require('./rutas/perfil.rutas'))
 
-module.exports = app; 
+const dotenv = require('dotenv');
+dotenv.config();
+
+app.listen(app.get('port'));
+console.log('El servidor esta en el puerto', app.get('port'));
