@@ -14,6 +14,7 @@ selecion.mandar=async(req,res)=>{
     const nuevopersonaje={
         personaje
     }
+    await pool.query("DELETE FROM juego")
     await pool.query("INSERT INTO juego set ?",[nuevopersonaje])
     req.flash('success', 'Se mando con exito')
      res.redirect('/juego/comienzo');

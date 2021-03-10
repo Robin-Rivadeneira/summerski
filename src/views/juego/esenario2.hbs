@@ -3,7 +3,10 @@
 <img src="/img/sprites/esenario2.png" id="esenario">
 </div>
 <div id="Boton">
-<button id="boton"><img src="/img/sprites/teacher.png" id="imagen"></button>
+<img src="/img/sprites/teacher.png" id="imagen">
+</div>
+<div id="Teacher">
+<img src="/img/sprites/teacher.png" id="imagen1">
 </div>
 <form action="/juego/esenario2"></form>
 <div id="personajes">
@@ -18,7 +21,7 @@
 </div>
 <div id="inicio">
 <textarea id="inicios" cols="30" rows="10"  spellcheck="true" disabled>
-    ¡¡Para continuar da click en el icono!!
+    ¡¡Para continuar da click en el ícono!!
 </textarea>
 <button type="button" id="botos" onclick="personaje.intros()"><img src="/img/sprites/circulo.png" id="circulo"></button>
 </div>
@@ -34,14 +37,70 @@
   {{personaje}}  y sus amigas están entregando el último proyecto con la Srta Frida Lazra.
 </textarea>
 {{/each}}
-<button type="button" id="botos1" onclick="personaje.conersaciones()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+<button type="button" id="botos1" onclick="personaje.coversaciones()"><img src="/img/sprites/circulo.png" id="circulo"></button>
 </div>
 <div id="conversacion">
 <textarea id="saludo" cols="30" rows="10" spellcheck="true" disabled>
 Srta Frida Lara muy buenos dias, aquí tiene mi proyecto, me he esforzado mucho.
 </textarea>
-</div>
-<div id="preguntas">
-<input type="button"  id="mensajes">
+<button type="button" id="botos3" onclick="personaje.conversacion1()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+{{#each lista}}
+<textarea id="Conversacion" cols="30" rows="10" spellcheck="true" disabled>
+Eso espero {{personaje}}, nunca fallas, eres muy dedicada y puntual, por ello eres mi mejor alumna.
+</textarea>
+{{/each}}
+<button type="button" id="botos4" onclick="personaje.conversacion2()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+{{#each lista}}
+<input type="text" id="saludoss" value="{{personaje}}" disabled></input>
+{{/each}}
+<textarea id="Conversacion1" cols="30" rows="10" spellcheck="true" disabled>
+Srta Lara no diga eso !!!, que dirán mis demás compañeras, además me gusta esperarme en mis tareas.
+</textarea>
+<button type="button" id="botos5" onclick="personaje.deciciones()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+{{#each lista}}
+<input type="text" id="saludoss" value="{{personaje}}" disabled style="display: none;"></input>
+{{/each}}
+<textarea id="desicion1" cols="30" rows="10" spellcheck="true" disabled>
+Srta Lara, ¿A dónde tiene planeado ir de vacaciones con su esposo?.
+</textarea>
+<button type="button" id="botos6" onclick="personaje.conversacion1_1()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+{{#each lista}}
+<input type="text" id="saludoss" value="{{personaje}}" disabled style="display: none;"></input>
+{{/each}}
+<textarea id="desicion2" cols="30" rows="10" spellcheck="true" disabled>
+La voy a extrañar mucho, la veré después de vacaciones. 
+</textarea>
+<button type="button" id="botos7" onclick="personaje.regreos()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+<input type="button"  id="pregunta1" value="Seguir Conversando" onclick="personaje.decision1()">
+<input type="button"  id="pregunta2" value="Volver a tu asiento" onclick="personaje.decision2()">
+<textarea id="desicion1_1" cols="30" rows="10" spellcheck="true" disabled style="display: none;">
+Tenemos planeado ir a la playa.
+</textarea>
+<button type="button" id="botos8" onclick="personaje.despedida()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+<textarea id="desicion2_2" cols="30" rows="10" spellcheck="true" disabled style="display: none;">
+La voy a extrañar mucho, la veré después de vacaciones. 
+</textarea>
+<button type="button" id="botos9" onclick="personaje.regreos()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+{{#each lista}}
+<textarea id="continuacion" cols="30" rows="10" spellcheck="true" disabled style="display: none;">
+Hola {{personaje}}, ¿Ya entregaste tu proyecto?.
+</textarea>
+{{/each}}
+<button type="button" id="botos10" onclick="personaje.Charla()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+<textarea id="continuacion1" cols="30" rows="10" spellcheck="true" disabled style="display: none;">
+Sí, ya lo entregué estuvo un poco complicado, debido a la información de mi tema era muy escaza. ¿Y tú?.
+</textarea>
+<button type="button" id="botos11" onclick="personaje.Charla1()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+<textarea id="continuacion2" cols="30" rows="10" spellcheck="true" disabled style="display: none;">
+Ya lo entregué en mi caso, fue sencillo ya que era un tema conocido. 
+</textarea>
+<button type="button" id="botos12" onclick="personaje.Charla2()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+<textarea id="continuacion3" cols="30" rows="10" spellcheck="true" disabled style="display: none;">
+¡¡Uff!!, ¡ ¡Chicas por fin pude entregar mi proyecto! !  Fue horrible, tarde mucho en hacerlo, pero por fin llegó el día de entrega.
+</textarea>
+<button type="button" id="botos13" onclick="personaje.Charla3()"><img src="/img/sprites/circulo.png" id="circulo"></button>
+<textarea id="continuacion4" cols="30" rows="10" spellcheck="true" disabled style="display: none;">
+Hola Chicas, ¿Dé que tanto hablan?, Deberían estar haciendo sus maletas, nos vamos mañana a MIAMI, ¡¡NOS ESPERA LA CASA DE PLAYA!!.
+</textarea>
 </div>
 <script src="/js/esenario2.js"></script>

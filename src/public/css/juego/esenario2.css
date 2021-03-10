@@ -4,13 +4,12 @@
     height: auto;
     top: 63px;
 }
-#boton{
-    border-radius: 20px;
-    border-color: rgba(240, 248, 255, 0);
-    background-color: rgba(240, 248, 255, 0);
-}
 #imagen{
     width: 150px;
+    height: auto;
+}
+#imagen1{
+    width: 250px;
     height: auto;
 }
 #Boton{
@@ -20,7 +19,7 @@
 }
 #personaje{
     position: absolute;
-    width: 170px;
+    width: 135px;
     height: auto;
     top: 340px;
     left: 390px;
@@ -36,8 +35,8 @@
     position: absolute;
     width: 130px;
     height: auto;
-    top: 340px;
-    left: 1000px;
+    top: 390px;
+    left: 950px;
 }
 #personaje3{
     position: absolute;
@@ -135,4 +134,251 @@
     left: 1050px;
     background-color: rgba(255, 235, 205, 0);
     border-color: rgba(255, 235, 205, 0);
+}
+#botos3{
+    position: absolute;
+    top: 640px;
+    left: 1050px;
+    background-color: rgba(255, 235, 205, 0);
+    border-color: rgba(255, 235, 205, 0);
+}
+#botos4{
+    position: absolute;
+    top: 640px;
+    left: 1050px;
+    background-color: rgba(255, 235, 205, 0);
+    border-color: rgba(255, 235, 205, 0);
+}
+#botos5{
+    position: absolute;
+    top: 640px;
+    left: 1050px;
+    background-color: rgba(255, 235, 205, 0);
+    border-color: rgba(255, 235, 205, 0);
+}
+#botos6{
+    position: absolute;
+    top: 640px;
+    left: 1050px;
+    background-color: rgba(255, 235, 205, 0);
+    border-color: rgba(255, 235, 205, 0);
+}
+#botos7{
+    position: absolute;
+    top: 640px;
+    left: 1050px;
+    background-color: rgba(255, 235, 205, 0);
+    border-color: rgba(255, 235, 205, 0);
+}
+#botos8{
+    position: absolute;
+    top: 640px;
+    left: 1050px;
+    background-color: rgba(255, 235, 205, 0);
+    border-color: rgba(255, 235, 205, 0);
+}
+#botos9{
+    position: absolute;
+    top: 640px;
+    left: 1050px;
+    background-color: rgba(255, 235, 205, 0);
+    border-color: rgba(255, 235, 205, 0);
+}
+#botos10{
+    position: absolute;
+    top: 640px;
+    left: 1050px;
+    background-color: rgba(255, 235, 205, 0);
+    border-color: rgba(255, 235, 205, 0);
+}
+#botos11{
+    position: absolute;
+    top: 640px;
+    left: 1050px;
+    background-color: rgba(255, 235, 205, 0);
+    border-color: rgba(255, 235, 205, 0);
+}
+#botos12{
+    position: absolute;
+    top: 640px;
+    left: 1050px;
+    background-color: rgba(255, 235, 205, 0);
+    border-color: rgba(255, 235, 205, 0);
+}
+#botos13{
+    position: absolute;
+    top: 640px;
+    left: 1050px;
+    background-color: rgba(255, 235, 205, 0);
+    border-color: rgba(255, 235, 205, 0);
+}
+#Teacher{
+    position: absolute;
+    top: 350px;
+    left: 850px;
+}
+#Conversacion{
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    height:100px;
+    color: black;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+#Conversacion1{
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    height:100px;
+    color: black;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+#desicion1{
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    height:100px;
+    color: black;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+#desicion1_1{
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    height:100px;
+    color: black;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+#desicion2{
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    height:100px;
+    color: black;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+#desicion2_2{
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    height:100px;
+    color: black;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+#continuacion{
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    height:100px;
+    color: black;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+#continuacion1{
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    height:100px;
+    color: black;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+#continuacion2{
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    height:100px;
+    color: black;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+#continuacion3{
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    height:100px;
+    color: black;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+#continuacion4{
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    height:100px;
+    color: black;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+#saludoss{
+    position: absolute;
+    top: 580px;
+    text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 23px;
+    color: black;
+    border-color: rgba(255, 235, 205, 0);
+    background-color: rgba(255, 255, 255, 0); 
+}
+#pregunta1{
+    position: absolute;
+    top: 270px;
+    left: 80px;
+    width: 80%;
+    font-family: fantasy;
+    font-size: 26px;
+    font-style: italic;
+    background-color: rgba(240, 248, 255, 0.466);
+    border-color: rgba(0, 255, 255, 0);
+}
+#pregunta2{
+    position: absolute;
+    top: 370px;
+    left: 80px;
+    width: 80%;
+    font-family: fantasy;
+    font-size: 26px;
+    font-style: italic;
+    background-color: rgba(240, 248, 255, 0.493);
+    border-color: rgba(0, 255, 255, 0);
 }
