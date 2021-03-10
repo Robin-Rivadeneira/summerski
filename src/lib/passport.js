@@ -13,7 +13,7 @@ passport.use(
       passReqToCallback: true
     },
     async (req, username, password, done) => {
-      const rows = await pool.query("SELECT * FROM 	usurios WHERE username=?",[username]);
+      const rows = await pool.query("SELECT * FROM 	Usurios WHERE username=?",[username]);
       if (rows.length>0) {
         const user = rows[0];
         const validPassword = await helpers.matchPassword(
@@ -55,7 +55,7 @@ passport.use(
 
       newUser.password = await helpers.encryptPassword(password);
       // Saving in the Database
-      const result = await pool.query("INSERT INTO 	usurios SET ? ", newUser);
+      const result = await pool.query("INSERT INTO 	Usurios SET ? ", newUser);
       newUser.id = result.insertId;
       return done(null, newUser);
     }
@@ -67,6 +67,6 @@ passport.serializeUser((user, done) => {
 });
 
 passport.deserializeUser(async (id, done) => {
-  const rows = await pool.query("SELECT * FROM usurios WHERE id = ?", [id]);
+  const rows = await pool.query("SELECT * FROM Usurios WHERE id = ?", [id]);
   done(null, rows[0]);
 });

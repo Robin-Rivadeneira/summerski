@@ -6,7 +6,7 @@ selecion.mostrar = (req, res) => {
 }
 
 selecion.lista = async (req, res) => {
-    const lista = await pool.query('SELECT * FROM personajes order by Nombre ASC')
+    const lista = await pool.query('SELECT * FROM Personajes order by Nombre ASC')
     res.render('juego/seleccion', { lista });
 }
 selecion.mandar=async(req,res)=>{

@@ -12,24 +12,24 @@ descripcion.agregar = async (req, res) => {
         Titulo,
         Descripcion
     };
-    await pool.query('INSERT INTO historia set ?', [descripcion]);
+    await pool.query('INSERT INTO Historia set ?', [descripcion]);
     req.flash('success', 'Se guardo correctamente')
     res.redirect('/descripcion/list')
 }
 
 descripcion.lista = async (req, res) => {
-    const lista = await pool.query('SELECT * FROM historia');
+    const lista = await pool.query('SELECT * FROM Historia');
     res.render('descripcion/descripcion', { lista })
 }
 
 descripcion.lista1 = async (req, res) => {
-    const lista = await pool.query('SELECT * FROM historia');
+    const lista = await pool.query('SELECT * FROM Historia');
     res.render('descripcion1', { lista })
 }
 
 descripcion.renderEditar = async (req, res) => {
     const { id } = req.params;
-    const lista = await pool.query('SELECT * FROM historia WHERE id = ?', [id]);
+    const lista = await pool.query('SELECT * FROM Historia WHERE id = ?', [id]);
     res.render('descripcion/descripcionedit', {editar: lista[0]});
 }
 
@@ -39,7 +39,7 @@ descripcion.editar = async (req, res) => {
     const nuevaDescripcion={
         Descripcion
     };
-    await pool.query('UPDATE historia set ? WHERE id = ?', [nuevaDescripcion, id]);
+    await pool.query('UPDATE Historia set ? WHERE id = ?', [nuevaDescripcion, id]);
     req.flash('success', 'Se guardo correctamente');
     res.redirect('/descripcion/list');
 }
