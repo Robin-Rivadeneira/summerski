@@ -10,3 +10,7 @@
     width: 30%;
     height: auto;
 }
+#username{
+    position: absolute;
+    top: 130px;
+}

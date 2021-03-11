@@ -51,6 +51,7 @@ class esenario2 {
         this.paso3 = document.getElementById("paso3")
         this.paso4 = document.getElementById("paso4")
         this.timbre = document.getElementById("timbre")
+        this.sonido0 = document.getElementById("sonido0")
     }
     ubicacion() {
         if (this.nombre.value == "Hinatary") {
@@ -156,6 +157,7 @@ class esenario2 {
             this.conversacion.style.display = "block"
             this.nombre.style.display = "block"
             personaje.ubicacion()
+            this.sonido0.pause()
             this.paso1.play()
         }
     }
