@@ -1,1 +1,8 @@
+<LINK REL=StyleSheet HREF="/css/perfil.css" TYPE="text/css" MEDIA=screen>
 <form action="/perfil/list"></form>
+<div id="lista">
+{{#each traer}}
+{{personaje}}
+<img src="/img/sprites/{{personaje}}.png" id="personaje">
+{{/each}}
+</div>

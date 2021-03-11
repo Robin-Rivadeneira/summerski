@@ -46,6 +46,11 @@ class esenario2 {
         this.continuacion5 = document.getElementById('continuacion4')
         this.continuacion6 = document.getElementById('continuacion5')
         this.continuacion7 = document.getElementById('continuacion6')
+        this.paso1 = document.getElementById("paso1")
+        this.paso2 = document.getElementById("paso2")
+        this.paso3 = document.getElementById("paso3")
+        this.paso4 = document.getElementById("paso4")
+        this.timbre = document.getElementById("timbre")
     }
     ubicacion() {
         if (this.nombre.value == "Hinatary") {
@@ -151,9 +156,11 @@ class esenario2 {
             this.conversacion.style.display = "block"
             this.nombre.style.display = "block"
             personaje.ubicacion()
+            this.paso1.play()
         }
     }
     conversacion1() {
+        this.paso1.pause()
         this.Teacher.style.display = 'none'
         this.teacher.style.display = 'block'
         this.nombre.value = 'Srta Frida Lazra'
@@ -219,6 +226,7 @@ class esenario2 {
         this.nombre.value = 'Katzura'
         this.nombre1.style.display = 'none'
         this.nombre.style.display = 'block'
+        this.paso2.play()
     }
     Charla(){
         this.nombre1.style.display = 'block'
@@ -227,6 +235,7 @@ class esenario2 {
         this.boton10.style.display = 'none'
         this.nombre.style.display = 'none'
         this.boton11.style.display = 'block'
+        this.paso2.pause()
     }
     Charla1(){
         this.continuacion3.style.display = 'block'
@@ -245,29 +254,34 @@ class esenario2 {
         this.nombre.value = 'Shiro'
         this.nombre.style.display = 'block'
         this.boton13.style.display = 'block'
+        this.paso3.play()
     }
     Charla3(){
+        this.paso3.pause()
+        this.paso4.play()
         this.continuacion5.style.display = 'block'
         this.continuacion4.style.display = 'none'
         this.personajeN4.style.display = 'block'
         this.nombre1.style.display = 'none'
-        this.nombre.value = 'Shiro'
+        this.personajeN1.style.display = 'block'
+        this.nombre.value = 'Hinatary'
         this.nombre.style.display = 'block'
         this.boton13.style.display = 'none'
         this.boton14.style.display = 'block'
     }
     Charla4(){
+        this.paso4.pause()
         this.continuacion6.style.display = 'block'
         this.continuacion5.style.display = 'none'
         this.personajeN4.style.display = 'block'
         this.boton14.style.display = 'none'
         this.nombre1.style.display = 'none'
-        this.personajeN1.style.display = 'block'
-        this.nombre.value = 'Hinatary'
+        this.nombre.value = 'shiro'
         this.nombre.style.display = 'block'
         this.boton15.style.display = 'block'
     }
     Charla5(){
+        this.timbre.play()
         this.continuacion7.style.display = 'block'
         this.continuacion6.style.display = 'none'
         this.personajeN4.style.display = 'block'

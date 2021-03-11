@@ -15,3 +15,7 @@
 #flecha{
     max-width: 50px;
 }
+#descripcion{
+    width: 30%;
+    text-align: justify;
+}

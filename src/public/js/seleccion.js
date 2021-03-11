@@ -5,8 +5,10 @@ class Seleccion{
         this.jugadora3 = document.getElementById("juegadora3")
         this.jugadora4 = document.getElementById("juegadora4")
         this.Nombre = document.getElementById("nombre")
+        this.sonido = document.getElementById("sonido")
     }
     comienzo(){
+        this.sonido.style.display='none'
         if(this.Nombre.value=="Hinatary"){
             this.jugadora1.style.display='block'
             this.jugadora3.style.display='none'

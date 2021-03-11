@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-const { renderMostrar } = require('../controladores/perfil');
+const { traer } = require('../controladores/perfil');
 const { isLoggedIn } = require('../lib/auth')
-router.get('/list',isLoggedIn, renderMostrar);
+
+router.get('/list', isLoggedIn, traer);
 
 module.exports = router;

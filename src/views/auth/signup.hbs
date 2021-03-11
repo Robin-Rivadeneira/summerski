@@ -5,19 +5,19 @@
 <form action="/signup" method="POST" id="registros">
     <div id="usuario">
       <label id="Usuario">Usuario: </label>
-      <input type="text" id="Nombre" name="username">
+      <input type="text" id="Nombre" name="username" required>
     </div>
     <div id="Contraseñas">
       <label id="contraseña">Contraseña: </label>
-      <input type="password" id="Contraseña" name="password">
+      <input type="password" id="Contraseña" name="password" minlength="8" maxlength="16" required pattern="[A-Za-z0-9]">
     </div>
     <div id="Edades">
       <label id="edad">Edad: </label>
-      <input type="number" id="Edad" name="edad" min="0">
+      <input type="number" id="Edad" name="edad" min="5">
     </div>
     <div id="Estados">
       <label id="estado">Estado: </label>
-      <input type="text" id="Estado" name="estado" value=1>
+      <input type="text" id="Estado" name="estado" value=1 readonly>
     </div>
     <div>
       <button type="submit" id="boton"><img src="/img/guardar.png" id="guardar"></button>
