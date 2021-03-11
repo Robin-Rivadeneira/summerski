@@ -45,6 +45,7 @@ class esenario2 {
         this.continuacion4 = document.getElementById('continuacion3')
         this.continuacion5 = document.getElementById('continuacion4')
         this.continuacion6 = document.getElementById('continuacion5')
+        this.continuacion7 = document.getElementById('continuacion6')
     }
     ubicacion() {
         if (this.nombre.value == "Hinatary") {
@@ -113,6 +114,7 @@ class esenario2 {
         this.continuacion4.style.display = 'none'
         this.continuacion5.style.display = 'none'
         this.continuacion6.style.display = 'none'
+        this.continuacion7.style.display = 'none'
         this.desision2_2.style.display = 'none'
     }
     intros() {
@@ -266,6 +268,14 @@ class esenario2 {
         this.boton15.style.display = 'block'
     }
     Charla5(){
+        this.continuacion7.style.display = 'block'
+        this.continuacion6.style.display = 'none'
+        this.personajeN4.style.display = 'block'
+        this.boton15.style.display = 'none'
+        this.nombre1.style.display = 'block'
+        this.personajeN1.style.display = 'block'
+        this.nombre.value = 'Hinatary'
+        this.nombre.style.display = 'none'
     }
 }
 
